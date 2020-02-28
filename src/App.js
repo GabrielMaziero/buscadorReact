@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from './componentes/Home';
+import "./styles/global.css"
+import Routes from './routes';
 
 export default class App extends Component {
   render() {
-    return <Home />
+    return <Routes />
   }
 }
